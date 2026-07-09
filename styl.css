@@ -1,0 +1,29 @@
+body {
+
+    background-color: #222222;
+}
+
+#h1  {
+    color: white;
+}
+
+#b1 {
+    color: white;
+    background-color: #333333;
+}
+
+
+#b2 {
+    color: white;
+    background-color: red;
+}
+
+#b3 {
+    color: white;
+    background-color: red;
+}
+
+
+#b4 {
+    color: black;
+    background-color: red;

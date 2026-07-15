@@ -10,20 +10,36 @@ body {
 #b1 {
     color: white;
     background-color: #333333;
+    border-block-color: #333333;
+    border-inline-color: #333333;
+    scale: 1.5;
+    position: relative;
+    bottom: 4px; /* Schiebt das Element 20px nach unten */
+    left: 30px; /* Schiebt das Element 10px nach rechts */
 }
 
 
 #b2 {
     color: white;
     background-color: red;
+    border-block-color: red;
+    border-inline-color: red;
+    scale: 2;
 }
 
 #b3 {
     color: white;
     background-color: red;
+    border-block-color: red;
+    border-inline-color: red;
+    scale: 2;
 }
 
 
 #b4 {
     color: black;
     background-color: red;
+    border-block-color: red;
+    border-inline-color: red;
+    scale: 2;
+}

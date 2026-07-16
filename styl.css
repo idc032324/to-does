@@ -41,11 +41,22 @@ body {
     left: 150px;
 }
 
-
 #b4 {
     color: black;
     background-color: red;
     border-block-color: red;
     border-inline-color: red;
-    scale: 2;
+    scale: 1.4;
+    position: relative;
+    bottom: 0px;
+    left: 15;
+}
+
+#p2 {
+    background-color: #222222;
+    border-top-color: #222222;
+    border-left-color: #222222;
+    border-right-color: #222222;
+    border-bottom-width: 5;
+    color: white;
 }

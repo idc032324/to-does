@@ -1,4 +1,4 @@
-const button = document.getElementById("d1");
+const button = document.getElementById("b1");
 const theme = document.getElementById("theme");
 
 button.addEventListener("click", () => {

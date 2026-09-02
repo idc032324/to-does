@@ -1,13 +1,15 @@
 body {
-
+/*seite*/
     background-color: #222222;
 }
 
 #h1  {
+    /*überschrift*/
     color: white;
 }
 
 #b1 {
+    /*button dark mode*/
     color: white;
     background-color: #333333;
     border-block-color: #333333;
@@ -18,8 +20,8 @@ body {
     left: 30px; 
 }
 
-
-#b2 {
+#b2{
+    /*button del chekt*/
     color: white;
     background-color: red;
     border-block-color: red;
@@ -31,6 +33,7 @@ body {
 }
 
 #b3 {
+     /*button del all*/
     color: white;
     background-color: red;
     border-block-color: red;
@@ -41,11 +44,28 @@ body {
     left: 150px;
 }
 
-
 #b4 {
+     /*button del note*/
     color: black;
     background-color: red;
     border-block-color: red;
     border-inline-color: red;
-    scale: 2;
+    scale: 1.4;
+    position: relative;
+    bottom: 0px;
+    left: 15;
 }
+
+#p1 {
+     /*check box*/
+    color: black;
+}
+
+#p2 {
+     /*text in*/
+    background-color: #222222;
+    border-top-color: #222222;
+    border-left-color: #222222;
+    border-right-color: #222222;
+    border-bottom-width: 5;
+    color: white;

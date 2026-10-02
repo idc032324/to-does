@@ -64,9 +64,10 @@ body {
 
 #p2 {
      /*text in*/
-    background-color: #white;
-    border-top-color: #white;
-    border-left-color: #white;
-    border-right-color: #white;
+    background-color: #ffffff;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
     border-bottom-width: 5;
-    color: white;
+    color: #0a0a0a;
+}

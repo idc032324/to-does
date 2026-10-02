@@ -1,20 +1,20 @@
 body {
 /*seite*/
-    background-color: white;
+    background-color: #ffffff;
     
 }
 
 #h1  {
     /*überschrift*/
-    color: black;
+    color: #0a0a0a;
 }
 
 #b1 {
     /*button dark mode*/
-    color: white;
-    background-color: #333333;
-    border-block-color: #333333;
-    border-inline-color: #333333;
+    color: #0a0a0a;
+    background-color: #919191;
+    border-block-color: #919191;
+    border-inline-color: #919191;
     scale: 1.5;
     position: relative;
     bottom: 4px; 

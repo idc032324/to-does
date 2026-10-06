@@ -58,7 +58,7 @@ body {
 
 #p1 {
      /*check box*/
-    .custom-checkbox input[type="checkbox"] {
+   .custom-checkbox input[type="checkbox"] {
   appearance: none;
   -webkit-appearance: none;
   width: 20px;

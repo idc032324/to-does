@@ -47,9 +47,9 @@ body {
 #b4 {
      /*button del note*/
     color: black;
-    background-color: red;
-    border-block-color: red;
-    border-inline-color: red;
+    background-color: #c21010;
+    border-block-color: #c21010;
+    border-inline-color: #c21010;
     scale: 1.4;
     position: relative;
     bottom: 0px;

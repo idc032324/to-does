@@ -58,7 +58,25 @@ body {
 
 #p1 {
      /*check box*/
-    accent-color: #222222;
+    .custom-checkbox input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #555; /* Rahmenfarbe */
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff; /* Hintergrund inaktiv */
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+/* Farbe im aktivierten Zustand */
+.custom-checkbox input[type="checkbox"]:checked {
+  background-color: #2e7d32; /* Hintergrund aktiv (z.B. Grün) */
+  border-color: #2e7d32;     /* Rahmenfarbe aktiv */
+  /* Hier können Sie optional ein eigenes Haken-Icon als background-image einfügen */
+}
 }
 
 #p2 {

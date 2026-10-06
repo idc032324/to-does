@@ -63,11 +63,11 @@ body {
   -webkit-appearance: none;
   width: 20px;
   height: 20px;
-  border: 2px solid #333333; /* Rahmenfarbe */
+  border: 2px solid #fff; /* Rahmenfarbe */
   border-radius: 4px;
   outline: none;
   cursor: pointer;
-  background-color: #222222; /* Hintergrund inaktiv */
+  background-color: #fff; /* Hintergrund inaktiv */
   transition: background-color 0.2s, border-color 0.2s;
 }
 

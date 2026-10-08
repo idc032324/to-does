@@ -9,24 +9,12 @@ body {
     color: #0a0a0a;
 }
 
-#b1 {
-    /*button dark mode*/
-    color: #0a0a0a;
-    background-color: #919191;
-    border-block-color: #919191;
-    border-inline-color: #919191;
-    scale: 1.5;
-    position: relative;
-    bottom: 4px; 
-    left: 30px; 
-}
-
 #b2{
     /*button del chekt*/
     color: white;
-    background-color: red;
-    border-block-color: red;
-    border-inline-color: red;
+    background-color: #c21010;
+    border-block-color: #5e0808;
+    border-inline-color: #5e0808;
     scale: 2;
     position: relative;
     bottom: 0px; 
@@ -36,9 +24,9 @@ body {
 #b3 {
      /*button del all*/
     color: white;
-    background-color: red;
-    border-block-color: red;
-    border-inline-color: red;
+    background-color: #c21010;
+    border-block-color: #5e0808;
+    border-inline-color: #5e0808;
     scale: 2;
     position: relative;
     bottom: 0px; 
@@ -47,10 +35,10 @@ body {
 
 #b4 {
      /*button del note*/
-    color: black;
-    background-color: red;
-    border-block-color: red;
-    border-inline-color: red;
+    color: white;
+    background-color: #c21010;
+    border-block-color: #5e0808;
+    border-inline-color: #5e0808;
     scale: 1.4;
     position: relative;
     bottom: 0px;

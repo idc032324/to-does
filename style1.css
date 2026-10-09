@@ -27,12 +27,13 @@ body {
     /*button del chekt*/
     color: white;
     background-color: #c21010;
-    border-block-color: ##ed1818;
-    border-inline-color: ##ed1818;
+    border-block-color: #ed1818;
+    border-inline-color: #ed1818;
     scale: 2;
     position: relative;
     bottom: 0px; 
     left: 40px;
+    border-radius: 8px;
 }
 
 #b3 {

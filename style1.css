@@ -13,9 +13,9 @@ body {
 #b1 {
     /*button dark mode*/
     color: #000000;
-    background-color: #FFFFFF;
-    border-block-color: #FFFFFF;
-    border-inline-color: #FFFFFF;
+    background-color: #cccccc;
+    border-block-color: #cccccc;
+    border-inline-color: #cccccc;
     scale: 1.5;
     position: relative;
     bottom: 4px; 

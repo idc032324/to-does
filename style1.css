@@ -12,10 +12,10 @@ body {
 
 #b1 {
     /*button dark mode*/
-    color: white;
-    background-color: #333333;
-    border-block-color: #333333;
-    border-inline-color: #333333;
+    color: #000000;
+    background-color: #000000;
+    border-block-color: #000000;
+    border-inline-color: #000000;
     scale: 1.5;
     position: relative;
     bottom: 4px; 

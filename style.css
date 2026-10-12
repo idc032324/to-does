@@ -18,6 +18,7 @@ body {
     position: relative;
     bottom: 4px; 
     left: 30px; 
+    border-radius: 8px;
 }
 
 #b2{
@@ -30,6 +31,7 @@ body {
     position: relative;
     bottom: 0px; 
     left: 40px;
+    border-radius: 8px;
 }
 
 #b3 {
@@ -42,6 +44,7 @@ body {
     position: relative;
     bottom: 0px; 
     left: 150px;
+    border-radius: 8px;
 }
 
 #b4 {
@@ -54,6 +57,7 @@ body {
     position: relative;
     bottom: 0px;
     left: 15;
+    border-radius: 8px;
 }
 
 #p1 {

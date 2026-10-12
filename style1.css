@@ -40,24 +40,26 @@ body {
      /*button del all*/
     color: white;
     background-color: #c21010;
-    border-block-color: #5e0808;
-    border-inline-color: #5e0808;
+    border-block-color: #ed1818;
+    border-inline-color: #ed1818;
     scale: 2;
     position: relative;
     bottom: 0px; 
     left: 150px;
+    border-radius: 8px;
 }
 
 #b4 {
      /*button del note*/
     color: white;
     background-color: #c21010;
-    border-block-color: #5e0808;
-    border-inline-color: #5e0808;
+    border-block-color: #ed1818;
+    border-inline-color: #ed1818;
     scale: 1.4;
     position: relative;
     bottom: 0px;
     left: 15;
+    border-radius: 8px;
 }
 
 #p1 {

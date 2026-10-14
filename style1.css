@@ -26,7 +26,7 @@ body {
 
 #b2{
     /*button del chekt*/
-    color: ffffff;
+    color: #000000;
     background-color: #c21010;
     border-block-color: #ed1818;
     border-inline-color: #ed1818;
@@ -39,7 +39,7 @@ body {
 
 #b3 {
      /*button del all*/
-    color: ffffff;
+    color: #000000;
     background-color: #c21010;
     border-block-color: #ed1818;
     border-inline-color: #ed1818;
@@ -52,7 +52,7 @@ body {
 
 #b4 {
      /*button del note*/
-    color: ffffff;
+    color: #000000;
     background-color: #c21010;
     border-block-color: #ed1818;
     border-inline-color: #ed1818;
@@ -65,7 +65,7 @@ body {
 
 #p1 {
      /*check box*/
-    color: black;
+    color: #000000;
 }
 
 #p2 {

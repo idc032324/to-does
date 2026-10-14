@@ -4,32 +4,23 @@ const theme = document.getElementById(“theme”);
 // Restore saved theme
 const savedTheme = localStorage.getItem(“todo-theme”);
 
-if (theme) {
-theme.setAttribute(
-“href”,
-savedTheme === “light” ? “style1.css” : “style.css”
-);
+if (savedTheme === “light”) {
+theme.setAttribute(“href”, “style1.css”);
+} else if (savedTheme === “dark”) {
+theme.setAttribute(“href”, “style.css”);
 }
 
-// Register click handler once
-if (
-button &&
-theme &&
-button.dataset.themeHandlerAttached !== “true”
-) {
-button.dataset.themeHandlerAttached = “true”;
+// Toggle theme
+button.addEventListener(“click”, () => {
+if (theme.getAttribute(“href”) === “style.css”) {
+theme.setAttribute(“href”, “style1.css”);
 
-button.addEventListener("click", () => {
-    const isDarkMode =
-        theme.getAttribute("href") === "style.css";
-    const nextTheme = isDarkMode ? "light" : "dark";
-    // Apply selected theme
-    theme.setAttribute(
-        "href",
-        nextTheme === "light" ? "style1.css" : "style.css"
-    );
-    // Save theme preference
-    localStorage.setItem("todo-theme", nextTheme);
+    // Save light mode
+    localStorage.setItem("todo-theme", "light");
+} else {
+    theme.setAttribute("href", "style.css");
+    // Save dark mode
+    localStorage.setItem("todo-theme", "dark");
+}
+
 });
-
-}

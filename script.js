@@ -15,13 +15,9 @@ localStorage.setItem("theme", "dark");
 
 
 document.addEventListener("DOMContentLoaded", () => {
-if (theme.getAttribute(“href”) === “style.css”) {
+if (theme === “light”) {
 theme.setAttribute(“href”, “style1.css”);
-localStorage.removeItem("theme");
-localStorage.setItem("theme", "light");
 } else {
 theme.setAttribute(“href”, “style.css”);
-localStorage.removeItem("theme");
-localStorage.setItem("theme", "dark");
 }
 });

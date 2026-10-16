@@ -1,5 +1,5 @@
 const button = document.getElementById(“b1”);
-const theme = document.getElementById(“theme”);
+const theme = document.getElementById(“dark”);
 
 button.addEventListener(“click”, () => {
 if (theme.getAttribute(“href”) === “style.css”) {
